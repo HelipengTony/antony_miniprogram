@@ -1,0 +1,7 @@
+<view>
+	<block>
+		<view wx:for="{{ postsData }}" wx:key="id">
+			<navigator url="/pages/index/post/index?id={{ item.id }}"><text>{{ item.title.rendered }}</text></navigator>
+		</view>
+	</block>
+</view>

@@ -1,0 +1,7 @@
+<view>
+	<block wx:if="{{ !alert && content }}">
+		<block>
+			<rich-text nodes="{{content}}"></rich-text>
+		</block>
+	</block>
+</view>
